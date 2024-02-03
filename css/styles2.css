@@ -1,6 +1,12 @@
 /* Global styles
 ------------------------------------*/
 /* border box fix */
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration-line: none;
+  list-style-type: none;
+}
 html {
   box-sizing: border-box;
 }
@@ -13,7 +19,7 @@ body {
   margin: 0;
 }
 a {
-    color: green;
+    color: #EF233C;
 }
 a:hover {
     text-decoration: none;
@@ -52,6 +58,28 @@ h2 {
 
 /* Header & Footer
 ------------------------------------*/
+nav{
+  transition: all 0.3s ease-in-out;
+  background-color: #2B2D42;
+}
+.nav__item{
+  list-style: none;
+}
+.nav_list{
+  display: flex;
+  column-gap: 40px;
+}
+.nav__link{#2c446f;
+  font-size: 1.2rem;
+  transition: all 0.2s ease-in-out;
+  color: #2c446f;
+}
+.nav__link:hover{
+  color: #c0cbff;
+  font-weight: 800;
+  justify-content: end;  
+}
+
 header,
 footer {
   background: #2B2D42;
@@ -68,7 +96,8 @@ header {
   /*text-align: center;*/
 }
 .profile-img {
-  /*width: 300px;*/
+  width: 35%;
+  height: 35%;
   border-radius: 50%;
   /*float: left;*/
   /*margin-right: 30px;*/
