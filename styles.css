@@ -4,6 +4,7 @@
     text-decoration-line: none;
     list-style-type: none;
     background-color: #90ae85;
+    color: #2c446f;
 }
 .logo{
     color: #2c446f;
@@ -20,6 +21,7 @@
 .capLet{
     font-size: 7em;
     justify-content: space-evenly;
+    color: #2c446f;
 }
 /* .para{ */
     display: flex;
